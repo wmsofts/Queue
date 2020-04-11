@@ -22,7 +22,9 @@ int main(){
 	} 
     
     printf("\n执行一次出队！\n"); 
+    printf("重新遍历，队头元素已经出队："); 
     DeLQueue(&Q); 
+    TraverseLQueue(&Q);
     printf("队列长度：%d\n",LengthLQueue(&Q));
 	//TraverseLQueue(&Q);
 	

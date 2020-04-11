@@ -115,6 +115,7 @@ void Input (AQueue *Q){
     }
 	printf("您要入队多少个数据(最多 10 个，否则队列满)："); 
 	scanf("%d",&amount);
+	printf("注意：int和double类型输入以空格分隔，char类型输入空格也是字符。\n"); 
     printf("请输入入队数据："); 
     switch(t)
     {
