@@ -2,7 +2,6 @@
 
 int main(){
 	LQueue Q;
-	int sign = 1;
 	int *p = NULL; 
 	printf("***链式存储的泛型队列***\n"); 
 	InitLQueue(&Q); 				//初始化 	
@@ -16,10 +15,8 @@ int main(){
 	printf("队列长度：%d\n",LengthLQueue(&Q));				
 	printf("\n");
 
-	if(sign!=0){
 	printf("现在开始遍历："); 
     TraverseLQueue(&Q);
-	} 
     
     printf("\n执行一次出队！\n"); 
     printf("重新遍历，队头元素已经出队："); 

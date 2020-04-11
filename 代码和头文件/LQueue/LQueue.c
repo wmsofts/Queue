@@ -143,9 +143,9 @@ void Input (LQueue *Q){
      	printf("错误：您应输入1，2或3以选择！\n请重新输入：");
       	scanf("%d", &t);
     }
-	printf("您要入队多少个数据(最多 10 个，否则队列满)："); 
+	printf("您要入队多少个数据：");   //链式存储的泛型队伍不判满 
 	scanf("%d",&amount);
-	printf("注意：int和double类型输入以空格分隔，char类型输入空格也是字符。\n"); 
+	printf("\n注意：int和double类型输入以空格分隔，char类型输入空格也是字符。\n"); 
     printf("请输入入队数据："); 
     switch(t)
     {
